@@ -1,0 +1,23 @@
+
+/*drag and drop*/
+/* span{
+    border: 1px solid black;
+    font-size: 2rem;
+    width: 50%;
+} */
+
+/*transition-run,start,end*/
+.transition {
+    /* width: 100px;
+    height: 100px;
+    background: rgba(255,0,0,1); */
+    transition-property: transform, background;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+  
+  .transition:hover {
+    transform: rotate(90deg);
+    background: rgba(255,0,0,0);
+  }
+

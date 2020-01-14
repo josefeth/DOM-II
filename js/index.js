@@ -61,3 +61,11 @@ transition.addEventListener('transitionstart', function() {
 transition.addEventListener('transitionend', function() {
   message.textContent = 'transitionend fired';
 });
+
+
+const fly = document.querySelector(".fly");
+
+fly.addEventListener("click", () => {
+    gsap.to(fly, { duration: 2.5, ease: "steps(12)", y: -500 });
+    console.log("hi")
+});
